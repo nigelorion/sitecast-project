@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,7 +15,7 @@
       <a class="links" href="#explore">Story</a>
       <a class="links" href="#about">About</a>
 
-      <a class="links" href="#contact">Contact</a>
+      <a class="links" href="#location">Location</a>
     </nav>
     <div class="hero" id="home">
       <div class="innerHero">
@@ -32,7 +32,7 @@
 
 
     </div>
-    <div class="container-fluid height-full" id="explore">
+    <div class="content" id="explore">
       <div class="story">
         <div class="row">
           <div class="col-md-12 center" align="center">
@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid height-full" id="about">
+    <div class="content" id="about">
       <div class="about">
         <div class="row">
           <div class="col-md-12" align="center">
@@ -122,46 +122,52 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <!-- <div class="row">
+          <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12"> -->
             <div class="banner">
               <h4>At HUNT, we believe quality #MensWearForAll is a luxury to be enjoyed by people of all gender identities. We aim to dress all sorts of bodies, and provide tailoring recommendations to ensure a custom fit.</h4>
 
             </div>
 
 
+          <!-- </div>
+
+        </div> -->
+      </div>
+    </div>
+    <div class="content" id="location">
+      <div class="contact">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
+            <h2>Location:</h2>
+
           </div>
 
         </div>
-      </div>
-    </div>
-    <div class="container-fluid height-full" id="contact">
-      <div class="contact">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" align="center">
-            <h2 class="form-title">contact is at huntmens</h2>
-            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=3815%20B%2C%20Edmunds%20ST%20Seattle%2C%20WA%20Seattle%20Wa%2C%2098118&key=AIzaSyAo7Z2vDRu9H38I35XWI11_BOQBwEViwWs" allowfullscreen></iframe>
+            <div class="storyContent">
+              <iframe  frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=3815%20B%2C%20Edmunds%20ST%20Seattle%2C%20WA%20Seattle%20Wa%2C%2098118&key=AIzaSyAo7Z2vDRu9H38I35XWI11_BOQBwEViwWs" allowfullscreen></iframe>
+
+            </div>
+
           </div>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <form class="form">
+            <div class="storyContent">
+              <div class="address">
+                <h4>Hunt</h4>
+                <p>3815 B, Edmunds ST Seattle, WA</p>
+                <p>Seattle Wa, 98118</p>
 
-              <div class="form-group">
+                <p>Phone: (425) 318-9117</p>
 
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" tabindex="1">
               </div>
-              <div class="form-group">
 
-                  <input type="email" class="form-control" name="email" placeholder="Email" tabindex="2">
-              </div>
-              <div class="form-group">
+            </div>
 
-                  <textarea rows="6" cols="60" name="message" class="form-control"  placeholder="Tell us about it!" tabindex="3"></textarea>
-              </div>
-              <div class="text-center margin-top-25">
-                  <button type="submit" class="btn btn-mod btn-border btn-large buttonHover">Send</button>
-              </div>
-            </form>
+
+
           </div>
         </div>
     </div>

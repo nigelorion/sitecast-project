@@ -44,10 +44,12 @@ body {
   color: rgb(198, 198, 198);
 }
 
-.links:visited, .links:active {
+.links:visited {
   text-decoration: none;
   color: inherit;
 }
+
+
 
 .hero {
   height: 100vh;
@@ -128,7 +130,6 @@ body {
 
 .story, .about, .contact {
   margin-top: 10%;
-
 }
 
 
@@ -180,8 +181,20 @@ body {
   flex-direction: column;
   text-align: center;
   padding: 8%;
+  margin: 0;
 }
 
 p {
   font-size: 1.2em;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
