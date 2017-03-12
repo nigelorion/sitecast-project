@@ -44,7 +44,7 @@ body {
   color: rgb(198, 198, 198);
 }
 
-.links:visited {
+.links:active {
   text-decoration: none;
   color: inherit;
 }
