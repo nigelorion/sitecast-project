@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+
 * {
-  font-family: 'Lora', serif;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+
 }
+
 
 body {
   margin: 0;
@@ -22,7 +28,7 @@ body {
   position: fixed;
   height: 60px;
   width: 100%;
-  background-color: rgba(189, 189, 189, 0.86);
+  background-color: rgba(87, 87, 87, 0.72);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -31,15 +37,16 @@ body {
 
 .links {
   text-decoration: none;
-  color: rgba(52, 52, 52, 0.76);
+  color: white;
   margin: 2%;
   font-size: 1.4em;
-  transition: color 150ms;
+  transition: all 150ms;
 }
 
 .links:hover {
   text-decoration: none;
   color: rgb(198, 198, 198);
+  transform: scale(1.3);
 }
 
 .links:active {
@@ -49,7 +56,7 @@ body {
 
 .hero {
   height: 100vh;
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/alley.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,16 +64,20 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  filter: grayscale(80%);
+
 }
 
-.innerHero {
+/*.innerHero {
   text-align: center;
-  width: 50%;
+  width: 40%;
+  height: 40%;
   background-color: rgba(122, 122, 122, 0.78);
   padding: 3%;
   color: rgb(224, 224, 224);
   margin: 5%;
-}
+  font-size: 3em;
+}*/
 
 .heroButton {
   border: none;
@@ -106,9 +117,9 @@ body {
 .arrow {
   opacity: 0;
   transition: opacity 800ms;
-  font-size: 3em;
-  width: 50%;
   color: white;
+  filter: grayscale(80%);
+  height: 100px;
 }
 
 .heroButton:hover ~ .arrow {
@@ -181,4 +192,32 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+
+.heroTitle {
+  font-size: 2.3em;
+  color: white;
+  letter-spacing: 4px
+
+}
+
+.heroSubTitle {
+  font-size: 1.3em;
+  color: rgb(214, 214, 214);
+  margin-bottom: 3%;
+}
+
+.logoHero {
+  width: 400px;
+  margin-top: 5%;
+  filter: invert(100%);
+}
+
+.titleContainer {
+  background-color: rgba(45, 45, 45, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 3%;
 }
